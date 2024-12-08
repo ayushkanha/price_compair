@@ -1,5 +1,5 @@
 import streamlit as st
-import serpapi
+from serpapi import GoogleSearch
 import pandas as pd
 st.set_page_config(
     layout="centered", page_title="Price Compare", page_icon="🔎",
