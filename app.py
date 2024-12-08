@@ -13,7 +13,7 @@ def compare(name):
     "gl" : "in"
     }
 
-    search = serpapi.GoogleSearch(params)
+    search = serpapi.Search(params)
     results = search.get_dict()
     shopping_results = results["shopping_results"]
     print(shopping_results)
