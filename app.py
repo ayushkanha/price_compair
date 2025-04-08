@@ -11,7 +11,7 @@ def compare(name):
     params = {
     "engine": "google_shopping",
     "q": name,
-    "api_key": "7b4f1c879e1ceea1cb33f35be6e42637a3c0f9e9687389c37d8a756708bd6348",
+    "api_key": st.secrets["api_key"],
     "gl" : "in"
     }
 
